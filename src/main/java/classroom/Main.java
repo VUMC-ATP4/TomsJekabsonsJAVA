@@ -1,3 +1,5 @@
+package classroom;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello Toms Java 1 Lekcija");
