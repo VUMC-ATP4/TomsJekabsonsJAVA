@@ -76,66 +76,87 @@ public class HomeWorkTwo {
         System.out.println(colorTwo + " - Kustību var veikt!");
         System.out.println(colorThree + " - Kustība jau notiek!");
 
-//        String colorLuksofors
-//        colorOne = scanner.next();
+//      String colorLuksofors
+//      colorOne = scanner.next();
 //
-//        if (colorLuksofors == "Sarkans"){
+//      if (colorLuksofors == "Sarkans"){
 //            System.out.println("STOP");
-//        } else if (colorLuksofors == "Dzeltens"){
+//      } else if (colorLuksofors == "Dzeltens"){
 //            System.out.println("Var sākt kustību");
-//        } else if (colorLuksofors == "Zaļš"){
+//      } else if (colorLuksofors == "Zaļš")
 //            System.out.println("Var kustēties");
-//        } else {
+//      } else {
 //            System.out.println("Ja nav iedegtas gaismas veikt kustību uzmanīgi");
-//        }
-
+//      }
 
         //5.uzdevums
 
-        printBusinessCard();
-        printBusinessCard();
-        printBusinessCard();
+//        printBusinessCard();
+//        printBusinessCard();
+//        printBusinessCard();
 
         //6.uzdevums
 
-        printBusinessCardTwo("Toms", "Jēkabsons", "+371 2999000", "1995");
+//        printBusinessCardTwo("Toms", "Jēkabsons", "+371 2999000", "1995");
 
         //7.uzdevums
-        int a = 4;
-        int b = 10;
-        int summa = sum(a, b);
-        System.out.println(summa);
+//        int a = 4;
+//        int b = 10;
+//        int summa = sum(a, b);
+//        System.out.println(summa);
 
         // 8.uzdevums
+//        System.out.println(average(10,2,4));
+//    }
 
-        System.out.println(average(10,2,4));
-    }
+//    static void printBusinessCard() {
+//        // 5.uzdevums
+//        String name = "Toms";
+//        String surname = "Jēkabsons";
+//        String telephone = "+371 29999020";
+//        int dateOfBirth = 1990;
+//
+//        System.out.println("Vizītkarte");
+//        System.out.println("##########");
+//        System.out.println("Vārds: " + name);
+//        System.out.println("Uzvārds: " + surname);
+//        System.out.println("Telefona numurs: " + telephone);
+//        System.out.println("Dzimšanas gads: " + dateOfBirth);
+//        System.out.println("##########");
+//    }
+//    static void printBusinessCardTwo(String vards1, String uzvards1, String telefons1, String dzimsanasGads1){
+//        // 6.uzdevums
+//        System.out.println("Ievadām vārdu " + vards1);
+//        System.out.println("Ievadām uzvārdu " + uzvards1);
+//        System.out.println("Ievadām telefona numuru " + telefons1);
+//        System.out.println("Ievadām dzimšanas gadu " + dzimsanasGads1);
+//    }
+//    static int sum(int a, int b){
+//        // 7.uzdevums
+//        return a + b;
+//    }
 
-    static void printBusinessCard() {
-        // 5.uzdevums
-        System.out.println("Vizītkarte");
-        System.out.println("##########");
-        System.out.println("Vārds: Toms");
-        System.out.println("Uzvārds: Jēkabsons");
-        System.out.println("Telefona numurs: +371 29990000");
-        System.out.println("Dzimšanas gads: 1995");
-        System.out.println("##########");
-    }
-    static void printBusinessCardTwo(String vards, String uzvards, String telefons, String dzimsanasGads){
-        // 6.uzdevums
-        System.out.println("Ievadām vārdu " + vards);
-        System.out.println("Ievadām uzvārdu " + uzvards);
-        System.out.println("Ievadām telefona numuru " + telefons);
-        System.out.println("Ievadām dzimšanas gadu " + dzimsanasGads);
-    }
-    static int sum(int a, int b){
-        // 7.uzdevums
-        return a + b;
-    }
+//    static int average(double q, double w, double e){
+//        // 8.uzdevums - neizdodas nekādīgi :D
+//        // ja average ieliek int strādā viss! ieliekot double vislaik kaut kas nepatīk?!
+//        return q + w + e;
+//        }
 
-    static int average(double q, double w, double e){
-        // 8.uzdevums - neizdodas nekādīgi :D
-        // ja average ieliek int strādā viss! ieliekot double vislaik kaut kas nepatīk?!
-        return q + w + e;
+
+        //luksafors
+//    public static void luksafors1(String krasa)
+//      if (krasa.equals("Sarkana")){
+//            System.out.println("STOP");
+//      } else if (krasa.equals("Dzeltene")){
+//            System.out.println("Var sākt kustību");
+//      } else if (krasa.equals("Zaļa"))
+//            System.out.println("Var kustēties");
+//      } else {
+//            System.out.println("Ja nav iedegtas gaismas veikt kustību uzmanīgi");
+//      }
+
+//        static int sum1(int a, int b, int c){
+//            return (a + b + c);
+//        }
     }
 }
