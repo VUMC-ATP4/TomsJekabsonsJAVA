@@ -15,7 +15,6 @@ public class Main {
         System.out.println(trissturis1.laukums());
         System.out.println(irVienadmalu());
 
-
         //2.2
         System.out.println("\nUzdevums 2.2.");
         Trissturis trissturis2 = new Trissturis(8, 8, 8);
