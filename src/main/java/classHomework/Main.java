@@ -11,7 +11,7 @@ public class Main {
         trissturis1.mala1 = 8;
         trissturis1.mala2 = 8;
         trissturis1.mala3 = 9;
-        System.out.println("Mala viens ir: " + trissturis1.mala1 + " , mala divi ir: " + trissturis1.mala2 + " , mala trīs ir: " + trissturis1.mala3);
+        System.out.println("Mala viens ir: " + trissturis1.mala1 + ", mala divi ir: " + trissturis1.mala2 + ", mala trīs ir: " + trissturis1.mala3);
         System.out.println(trissturis1.laukums());
         System.out.println(irVienadmalu());
 
